@@ -1,0 +1,198 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/tailwind.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <!--main div -->
+    <div>
+        <div class="bg-indigo-900 w-full h-14 flex justify-between">
+
+            <div class="p-3 flex justify-start text-bold text-white gap-4">
+                <a href="#">
+                    <span class="material-icons">keyboard_arrow_left</span></a>
+
+                <a href="#" class="text-justify">Guest List</a>
+                <div class="hover:bg-indigo-800">
+                    <a href="#" class="text-justify ">Receipt</a>
+                </div>
+            </div>
+            <div class="text-bold text-white text-center">
+                <span>Receipt #1561320</span><br>
+                <span>Table no-1</span>
+
+            </div>
+            <div class=" flex text-bold text-white text-center mr-8 p-3 gap-1">
+                <span class="material-icons">
+                    person</span> <span>Vishal</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <main class="grid grid-cols-5 md:grid-1 divide-x ">
+
+        <!-- 1st coloum-->
+     
+                <div class="col-span-2 font-bold w-full py-3 relative  bg-white">
+                
+                    <div class="flex  justify-around w-full font-bold">
+                                              
+                        <div>
+                            <span> Name</span>
+                        </div>
+                        <div>
+                            <span> Quantity</span>
+                        </div>
+                        <div>   
+                            <span>Subtotal</span>
+                        </div>  
+                    
+                            
+                    </div> 
+                    <br>
+                    
+                    <div class="flex  justify-around w-full">
+                                              
+                        <div>
+                            <span class="font-bold">Food Name</span> <br>
+                            <span class=" text-gray-400 font-medium"> ₹200</span>
+                        </div>
+                        <div>
+                            <button class="rounded border w-14 h-5 text-sm justify-center border-gray-300">- 1 +</button>
+                        </div>
+                        <div>   
+                            <span>₹200</span>
+                        </div>  
+                            
+                    </div> 
+
+                    <br>
+                    
+                    <div class="flex  justify-around w-full ">
+                                              
+                        <div>
+                            <span class="font-bold">Food Name</span> <br>
+                            <span class=" text-gray-400 font-medium"> ₹200</span>
+                        </div>
+                        <div>
+                            <button class="rounded border w-14 h-5 text-sm justify-center border-gray-300">- 2 +</button>
+                        </div>
+                        <div>   
+                            <span>₹400</span>
+                        </div>  
+                            
+                    </div> 
+                <div class="absolute w-full bottom-2 border-t-2">
+            
+                <div class="px-4 font-semibold ml-2 text-sm ">
+                    <ul class="text-black"> 
+                        <li>
+                               Sanjay Shah
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" divide-y m-2">       
+                    <div class="flex px-2 justify-between py-2 m-2 ">
+                        <span class=" text-black font-bold">Grand Total</span>
+                        <span class=" text-black font-bold">₹600</span>
+                    </div>
+                    <div class="flex justify-around w-full py-2">
+                        <button class="font-bold rounded text-black border w-14 h-9  justify-center">...</button>
+                        <button class="bg-green-500 text-white rounded w-32 h-9">Pay</button>
+                    </div>
+                </div> 
+                
+            </div>
+            
+        </div>
+
+
+        <!-- 2nd coloum-->
+
+        <div class=" col-span-2">
+            <div class="flex mt-2 py-3 px-4 gap-1"> <div class="flex w-full ml-6"><span class="material-icons bg-white rounded">search</span>
+                <input type="textfield" placeholder="Search menu" class="text-justify w-full rounded border-gray-500"></div>
+                <a href="#" class="gap-2"><span class="material-icons bg-indigo-900 rounded mr-4 text-white">search</span></a>
+            </div>
+            <div class="grid w-full justify-center gap-x-1">
+                <span class="text-sm font-medium">Category Name</span>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-2 gap-x-2 mt-2">
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid justify-center divide-y"><br>
+                <span class=" text-sm font-medium">Category Name</span>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 mt-2">
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                    <div class="card">
+                        <span class="">Food Name </span>
+                        <span class="mt-2 justify-self-center">₹200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 3rd coloum-->
+
+        <div class="bg-white w-auto">
+            <div class="flex py-3 px-4 justify-between border-b border-gray-200">
+                <a href="#">
+                    <span class="material-icons">menu</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">close</span>
+                </a>
+            </div>
+             <div class="text-black  font-semibold divide-y border-b border-gray-200 py-2"> 
+                <a href="#"><span class="grid  px-5" >Restaurant></span></a> <br>
+                <div>
+                <a href="#"><span class="grid  px-5 py-2">Bar></span></a>
+            </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
